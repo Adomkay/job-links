@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_d09aec83646446fdba027c613943c60d {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d09aec83646446fdba027c613943c60d" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_d09aec83646446fdba027c613943c60d = L.map(
+                                  'map_d09aec83646446fdba027c613943c60d',
+                                  {center: [40.7128,-74.006],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_12f1bcad08d84d62badfbefcccefffce = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_d09aec83646446fdba027c613943c60d);
+        
+    
+
+            var marker_8f272abeff5043f28567a59ddf3a2818 = L.marker(
+                [40.7128238,-74.00370869999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_e490af192961433ebe44c6d15215d547 = L.popup({maxWidth: '300'});
+
+            
+                var html_01b453edc47249b6a0798543b576a857 = $('<div id="html_01b453edc47249b6a0798543b576a857" style="width: 100.0%; height: 100.0%;">BOARD OF CORRECTION, </div>')[0];
+                popup_e490af192961433ebe44c6d15215d547.setContent(html_01b453edc47249b6a0798543b576a857);
+            
+
+            marker_8f272abeff5043f28567a59ddf3a2818.bindPopup(popup_e490af192961433ebe44c6d15215d547);
+
+            
+        
+    
+
+            var marker_215de8dc48314d3089067735fc9b5fd0 = L.marker(
+                [40.74416799999999,-73.93594999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_5b1b815c20f64955836be9d016531d5b = L.popup({maxWidth: '300'});
+
+            
+                var html_da9ff617ffc6499cb8103605fe0ce9bd = $('<div id="html_da9ff617ffc6499cb8103605fe0ce9bd" style="width: 100.0%; height: 100.0%;">DEPT OF DESIGN &amp; CONSTRUCTION, DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_5b1b815c20f64955836be9d016531d5b.setContent(html_da9ff617ffc6499cb8103605fe0ce9bd);
+            
+
+            marker_215de8dc48314d3089067735fc9b5fd0.bindPopup(popup_5b1b815c20f64955836be9d016531d5b);
+
+            
+        
+    
+
+            var marker_ba18099c25b64c2c8ca603515ceee3ea = L.marker(
+                [40.6990819,-73.9893388],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_6f2cccc0f5d84b54ad7e0b79405f1201 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdcd61720e2c40a8b85aa5bb7b9bb729 = $('<div id="html_bdcd61720e2c40a8b85aa5bb7b9bb729" style="width: 100.0%; height: 100.0%;">OFFICE OF EMERGENCY MANAGEMENT, </div>')[0];
+                popup_6f2cccc0f5d84b54ad7e0b79405f1201.setContent(html_bdcd61720e2c40a8b85aa5bb7b9bb729);
+            
+
+            marker_ba18099c25b64c2c8ca603515ceee3ea.bindPopup(popup_6f2cccc0f5d84b54ad7e0b79405f1201);
+
+            
+        
+    
+
+            var marker_69978f2fdb71409f9406be88a4687074 = L.marker(
+                [43.0856937,-73.3944466],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_13b00149dbb64af0bc7d7b352411df9e = L.popup({maxWidth: '300'});
+
+            
+                var html_6d5aab4ca31e411aa73b3d14ee0314cc = $('<div id="html_6d5aab4ca31e411aa73b3d14ee0314cc" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_13b00149dbb64af0bc7d7b352411df9e.setContent(html_6d5aab4ca31e411aa73b3d14ee0314cc);
+            
+
+            marker_69978f2fdb71409f9406be88a4687074.bindPopup(popup_13b00149dbb64af0bc7d7b352411df9e);
+
+            
+        
+    
+
+            var marker_ad44c65d13ad4386983c3f2b8dcae447 = L.marker(
+                [40.7050972,-74.01207099999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_fb9269f68352417a8da4321587955c26 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3f23817bca74fecbdd3ec128763247c = $('<div id="html_d3f23817bca74fecbdd3ec128763247c" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF PROBATION, DEPT. OF HOMELESS SERVICES, TAXI &amp; LIMOUSINE COMMISSION, </div>')[0];
+                popup_fb9269f68352417a8da4321587955c26.setContent(html_d3f23817bca74fecbdd3ec128763247c);
+            
+
+            marker_ad44c65d13ad4386983c3f2b8dcae447.bindPopup(popup_fb9269f68352417a8da4321587955c26);
+
+            
+        
+    
+
+            var marker_b0551ff0e63142eaa03fb4c135bfee8c = L.marker(
+                [40.7055016,-74.01376549999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_cf0b140aafec417c8367a3385f834851 = L.popup({maxWidth: '300'});
+
+            
+                var html_55c2e4ff67c84f2ba2a65d2101feb103 = $('<div id="html_55c2e4ff67c84f2ba2a65d2101feb103" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_cf0b140aafec417c8367a3385f834851.setContent(html_55c2e4ff67c84f2ba2a65d2101feb103);
+            
+
+            marker_b0551ff0e63142eaa03fb4c135bfee8c.bindPopup(popup_cf0b140aafec417c8367a3385f834851);
+
+            
+        
+    
+
+            var marker_ee0320547b454bc5a86108bb43aabb04 = L.marker(
+                [40.7383514,-73.97570259999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_3768cf3a26284516986fd3efa6c8ef4e = L.popup({maxWidth: '300'});
+
+            
+                var html_120472a81f424447acd352ceb3756582 = $('<div id="html_120472a81f424447acd352ceb3756582" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_3768cf3a26284516986fd3efa6c8ef4e.setContent(html_120472a81f424447acd352ceb3756582);
+            
+
+            marker_ee0320547b454bc5a86108bb43aabb04.bindPopup(popup_3768cf3a26284516986fd3efa6c8ef4e);
+
+            
+        
+    
+
+            var marker_b92e4e1e72d74ea397c32b4b59061bce = L.marker(
+                [40.7676538,-73.9712716],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_4040444b9c9546348b36b7b812489a19 = L.popup({maxWidth: '300'});
+
+            
+                var html_3e390f018d2f40879832bcf72f98c3dd = $('<div id="html_3e390f018d2f40879832bcf72f98c3dd" style="width: 100.0%; height: 100.0%;">DEPT OF PARKS &amp; RECREATION, </div>')[0];
+                popup_4040444b9c9546348b36b7b812489a19.setContent(html_3e390f018d2f40879832bcf72f98c3dd);
+            
+
+            marker_b92e4e1e72d74ea397c32b4b59061bce.bindPopup(popup_4040444b9c9546348b36b7b812489a19);
+
+            
+        
+    
+
+            var marker_f89d7f9330ad4b369746c85552fe0976 = L.marker(
+                [40.7936129,-73.9515972],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_db70dc23d13f4ed0ae154a4f52aa7935 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a1f381d51404b64b26aeb61903efbae = $('<div id="html_6a1f381d51404b64b26aeb61903efbae" style="width: 100.0%; height: 100.0%;">DEPT OF PARKS &amp; RECREATION, </div>')[0];
+                popup_db70dc23d13f4ed0ae154a4f52aa7935.setContent(html_6a1f381d51404b64b26aeb61903efbae);
+            
+
+            marker_f89d7f9330ad4b369746c85552fe0976.bindPopup(popup_db70dc23d13f4ed0ae154a4f52aa7935);
+
+            
+        
+    
+
+            var marker_c42b51be3ded4decbe1ab20a892f7f28 = L.marker(
+                [40.7127753,-74.0059728],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_f721995ece424853853fd4f0f087f0b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_53906cbb5af44ecca18ac0cd16922046 = $('<div id="html_53906cbb5af44ecca18ac0cd16922046" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_f721995ece424853853fd4f0f087f0b9.setContent(html_53906cbb5af44ecca18ac0cd16922046);
+            
+
+            marker_c42b51be3ded4decbe1ab20a892f7f28.bindPopup(popup_f721995ece424853853fd4f0f087f0b9);
+
+            
+        
+    
+
+            var marker_22275bbda7204b17a210f8bbb2a9108f = L.marker(
+                [40.7132236,-74.008183],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_6109c4d65d16494bb09aa06f55c3f011 = L.popup({maxWidth: '300'});
+
+            
+                var html_7512598f1df942a98c22433e90339709 = $('<div id="html_7512598f1df942a98c22433e90339709" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF BUILDINGS, </div>')[0];
+                popup_6109c4d65d16494bb09aa06f55c3f011.setContent(html_7512598f1df942a98c22433e90339709);
+            
+
+            marker_22275bbda7204b17a210f8bbb2a9108f.bindPopup(popup_6109c4d65d16494bb09aa06f55c3f011);
+
+            
+        
+    
+
+            var marker_bedfb99a06fe4b6abb200de7f7d2d5f1 = L.marker(
+                [40.6434772,-74.0725099],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_e4559b6174e146049da2a18166d040de = L.popup({maxWidth: '300'});
+
+            
+                var html_49eb6752b576444d938ea6b39484650e = $('<div id="html_49eb6752b576444d938ea6b39484650e" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_e4559b6174e146049da2a18166d040de.setContent(html_49eb6752b576444d938ea6b39484650e);
+            
+
+            marker_bedfb99a06fe4b6abb200de7f7d2d5f1.bindPopup(popup_e4559b6174e146049da2a18166d040de);
+
+            
+        
+    
+
+            var marker_98c9a03b272d43adb2bd9bb5e12434f9 = L.marker(
+                [40.7346379,-73.907191],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_354ff8bc68f54ff195d86e5fbdcabed8 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6c84bfb92f64033bb00371deec43890 = $('<div id="html_b6c84bfb92f64033bb00371deec43890" style="width: 100.0%; height: 100.0%;">FIRE DEPARTMENT, </div>')[0];
+                popup_354ff8bc68f54ff195d86e5fbdcabed8.setContent(html_b6c84bfb92f64033bb00371deec43890);
+            
+
+            marker_98c9a03b272d43adb2bd9bb5e12434f9.bindPopup(popup_354ff8bc68f54ff195d86e5fbdcabed8);
+
+            
+        
+    
+
+            var marker_48a54b81494645e2a737aa00a5078e9b = L.marker(
+                [40.7143876,-74.011279],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_e450ec175ddd4b40a732c4e373ba2f96 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad59b299a99548f0be6820da376bdb50 = $('<div id="html_ad59b299a99548f0be6820da376bdb50" style="width: 100.0%; height: 100.0%;">OFFICE OF MANAGEMENT &amp; BUDGET, DEPT OF INFO TECH &amp; TELECOMM, </div>')[0];
+                popup_e450ec175ddd4b40a732c4e373ba2f96.setContent(html_ad59b299a99548f0be6820da376bdb50);
+            
+
+            marker_48a54b81494645e2a737aa00a5078e9b.bindPopup(popup_e450ec175ddd4b40a732c4e373ba2f96);
+
+            
+        
+    
+
+            var marker_9cd3b23b1a1f443d8ce0de622bce2993 = L.marker(
+                [40.7127753,-74.0059728],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_fd945cef9c6c4e3d9bdec1316b9a8822 = L.popup({maxWidth: '300'});
+
+            
+                var html_24f932636e4842438c37ce973e670322 = $('<div id="html_24f932636e4842438c37ce973e670322" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_fd945cef9c6c4e3d9bdec1316b9a8822.setContent(html_24f932636e4842438c37ce973e670322);
+            
+
+            marker_9cd3b23b1a1f443d8ce0de622bce2993.bindPopup(popup_fd945cef9c6c4e3d9bdec1316b9a8822);
+
+            
+        
+    
+
+            var marker_44c1d0eb39ed4564811082326c6e63b2 = L.marker(
+                [40.7137004,-73.8281571],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_4cdd4c3cf5594db0b93566da955be18a = L.popup({maxWidth: '300'});
+
+            
+                var html_5a09dc55355b463996c2205d9ac50b65 = $('<div id="html_5a09dc55355b463996c2205d9ac50b65" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, DEPARTMENT OF CITY PLANNING, DEPARTMENT OF BUILDINGS, </div>')[0];
+                popup_4cdd4c3cf5594db0b93566da955be18a.setContent(html_5a09dc55355b463996c2205d9ac50b65);
+            
+
+            marker_44c1d0eb39ed4564811082326c6e63b2.bindPopup(popup_4cdd4c3cf5594db0b93566da955be18a);
+
+            
+        
+    
+
+            var marker_5f175be885394bf8b0a99b6321db0f74 = L.marker(
+                [40.6923145,-73.9904201],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_98ba3505b3b746ccb94a1dad3c414239 = L.popup({maxWidth: '300'});
+
+            
+                var html_48bf371ad8de431c93c5f99ed7900e7e = $('<div id="html_48bf371ad8de431c93c5f99ed7900e7e" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF FINANCE, </div>')[0];
+                popup_98ba3505b3b746ccb94a1dad3c414239.setContent(html_48bf371ad8de431c93c5f99ed7900e7e);
+            
+
+            marker_5f175be885394bf8b0a99b6321db0f74.bindPopup(popup_98ba3505b3b746ccb94a1dad3c414239);
+
+            
+        
+    
+
+            var marker_ec20955e2c8e4e3b94b34ada1253cfa4 = L.marker(
+                [40.6934791,-73.9838541],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_86655c763bcf468cad5f73e0da5a4b0d = L.popup({maxWidth: '300'});
+
+            
+                var html_55a2cd7b785243949dc70a30cf43d4b6 = $('<div id="html_55a2cd7b785243949dc70a30cf43d4b6" style="width: 100.0%; height: 100.0%;">MAYORS OFFICE OF CONTRACT SVCS, </div>')[0];
+                popup_86655c763bcf468cad5f73e0da5a4b0d.setContent(html_55a2cd7b785243949dc70a30cf43d4b6);
+            
+
+            marker_ec20955e2c8e4e3b94b34ada1253cfa4.bindPopup(popup_86655c763bcf468cad5f73e0da5a4b0d);
+
+            
+        
+    
+
+            var marker_73bcf7d98ada4e2f9a02c35efd3b55fb = L.marker(
+                [40.7166101,-74.002589],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_efe256e3930b4e4894045fd3fe51205d = L.popup({maxWidth: '300'});
+
+            
+                var html_3325f438afe645578367557a4f08f71c = $('<div id="html_3325f438afe645578367557a4f08f71c" style="width: 100.0%; height: 100.0%;">LAW DEPARTMENT, </div>')[0];
+                popup_efe256e3930b4e4894045fd3fe51205d.setContent(html_3325f438afe645578367557a4f08f71c);
+            
+
+            marker_73bcf7d98ada4e2f9a02c35efd3b55fb.bindPopup(popup_efe256e3930b4e4894045fd3fe51205d);
+
+            
+        
+    
+
+            var marker_a095235a59994f5794dbb23b2e9233ab = L.marker(
+                [40.6935684,-73.987866],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c25cc4103a72457593a2b11d02fab554 = L.popup({maxWidth: '300'});
+
+            
+                var html_cfd51bef794a47ebaf528366c2897db8 = $('<div id="html_cfd51bef794a47ebaf528366c2897db8" style="width: 100.0%; height: 100.0%;">LAW DEPARTMENT, </div>')[0];
+                popup_c25cc4103a72457593a2b11d02fab554.setContent(html_cfd51bef794a47ebaf528366c2897db8);
+            
+
+            marker_a095235a59994f5794dbb23b2e9233ab.bindPopup(popup_c25cc4103a72457593a2b11d02fab554);
+
+            
+        
+    
+
+            var marker_8c508e4688ab49e898a3579b6464bdd5 = L.marker(
+                [40.7472475,-73.9444484],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c4cdc0d8fc43441ba9b85b108961943c = L.popup({maxWidth: '300'});
+
+            
+                var html_940ca142e3034f72a43dd43080736005 = $('<div id="html_940ca142e3034f72a43dd43080736005" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_c4cdc0d8fc43441ba9b85b108961943c.setContent(html_940ca142e3034f72a43dd43080736005);
+            
+
+            marker_8c508e4688ab49e898a3579b6464bdd5.bindPopup(popup_c4cdc0d8fc43441ba9b85b108961943c);
+
+            
+        
+    
+
+            var marker_2a66246a6664426a90a5471361f0d60c = L.marker(
+                [41.1022721,-73.7771384],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_f5ca63140e864896b1eaa5e4619eeaed = L.popup({maxWidth: '300'});
+
+            
+                var html_d0d6c1ac05c543619120729130f4f13b = $('<div id="html_d0d6c1ac05c543619120729130f4f13b" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_f5ca63140e864896b1eaa5e4619eeaed.setContent(html_d0d6c1ac05c543619120729130f4f13b);
+            
+
+            marker_2a66246a6664426a90a5471361f0d60c.bindPopup(popup_f5ca63140e864896b1eaa5e4619eeaed);
+
+            
+        
+    
+
+            var marker_eba540012b444448b378896f25539f26 = L.marker(
+                [40.714299,-74.0058154],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_5ba17e24b32d494d945accb541c15161 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d9b5ca0555349d3a0f24b01b8620f99 = $('<div id="html_6d9b5ca0555349d3a0f24b01b8620f99" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF BUILDINGS, </div>')[0];
+                popup_5ba17e24b32d494d945accb541c15161.setContent(html_6d9b5ca0555349d3a0f24b01b8620f99);
+            
+
+            marker_eba540012b444448b378896f25539f26.bindPopup(popup_5ba17e24b32d494d945accb541c15161);
+
+            
+        
+    
+
+            var marker_1c322bb9bee34f73af0ab3354c373995 = L.marker(
+                [40.7177926,-74.00718789999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_4e249b4d6a6b420bba0f5fc83efef176 = L.popup({maxWidth: '300'});
+
+            
+                var html_863a4bece2d04f57992a83b8812d09c2 = $('<div id="html_863a4bece2d04f57992a83b8812d09c2" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_4e249b4d6a6b420bba0f5fc83efef176.setContent(html_863a4bece2d04f57992a83b8812d09c2);
+            
+
+            marker_1c322bb9bee34f73af0ab3354c373995.bindPopup(popup_4e249b4d6a6b420bba0f5fc83efef176);
+
+            
+        
+    
+
+            var marker_226d56274a8e4d2199ff6bdc63c2ae66 = L.marker(
+                [41.8462374,-74.5444574],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_ddfa5e4fbacb413bb86b17791a46f15c = L.popup({maxWidth: '300'});
+
+            
+                var html_dd900d5adec04437b4361d4ada002ce2 = $('<div id="html_dd900d5adec04437b4361d4ada002ce2" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_ddfa5e4fbacb413bb86b17791a46f15c.setContent(html_dd900d5adec04437b4361d4ada002ce2);
+            
+
+            marker_226d56274a8e4d2199ff6bdc63c2ae66.bindPopup(popup_ddfa5e4fbacb413bb86b17791a46f15c);
+
+            
+        
+    
+
+            var marker_065cd0fbf3ca45fd9688ef617e8dcdad = L.marker(
+                [40.7223117,-73.9099849],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c76dc88ebd1f4fbd8245ddc176765cf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_a3f438530e6f408daa66824dbf5f9466 = $('<div id="html_a3f438530e6f408daa66824dbf5f9466" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_c76dc88ebd1f4fbd8245ddc176765cf1.setContent(html_a3f438530e6f408daa66824dbf5f9466);
+            
+
+            marker_065cd0fbf3ca45fd9688ef617e8dcdad.bindPopup(popup_c76dc88ebd1f4fbd8245ddc176765cf1);
+
+            
+        
+    
+
+            var marker_002c460ccd5c442f956dbd922dd92321 = L.marker(
+                [40.725783,-73.978602],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_1a9b7b93b4b1452aa54a890d49e315b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_51bf9b904ff545b1a821d20db60d1d06 = $('<div id="html_51bf9b904ff545b1a821d20db60d1d06" style="width: 100.0%; height: 100.0%;">ADMIN TRIALS AND HEARINGS, </div>')[0];
+                popup_1a9b7b93b4b1452aa54a890d49e315b5.setContent(html_51bf9b904ff545b1a821d20db60d1d06);
+            
+
+            marker_002c460ccd5c442f956dbd922dd92321.bindPopup(popup_1a9b7b93b4b1452aa54a890d49e315b5);
+
+            
+        
+    
+
+            var marker_991a26585c4e4802bd49e5f0f51d57a1 = L.marker(
+                [40.8155344,-73.9565088],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c24a80df337043349ff4740591fddf94 = L.popup({maxWidth: '300'});
+
+            
+                var html_160f1597cb424afdbf34e7d3e646b273 = $('<div id="html_160f1597cb424afdbf34e7d3e646b273" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_c24a80df337043349ff4740591fddf94.setContent(html_160f1597cb424afdbf34e7d3e646b273);
+            
+
+            marker_991a26585c4e4802bd49e5f0f51d57a1.bindPopup(popup_c24a80df337043349ff4740591fddf94);
+
+            
+        
+    
+
+            var marker_24c01b3249cc498db89b64b727b8f5f6 = L.marker(
+                [40.8267469,-73.92069459999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_0d295e91ad3f4fe7b69af141e281098c = L.popup({maxWidth: '300'});
+
+            
+                var html_4d7435c22de7462fbda6fb268c9525dd = $('<div id="html_4d7435c22de7462fbda6fb268c9525dd" style="width: 100.0%; height: 100.0%;">LAW DEPARTMENT, </div>')[0];
+                popup_0d295e91ad3f4fe7b69af141e281098c.setContent(html_4d7435c22de7462fbda6fb268c9525dd);
+            
+
+            marker_24c01b3249cc498db89b64b727b8f5f6.bindPopup(popup_0d295e91ad3f4fe7b69af141e281098c);
+
+            
+        
+    
+
+            var marker_4e30286490fc4a15a111c3f020fd5f3a = L.marker(
+                [40.7157444,-74.002515],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_8c9ec6cd9bc5435fa037cea86d46f08b = L.popup({maxWidth: '300'});
+
+            
+                var html_9b04d32a3ec04b1eb8e980e23ce3519a = $('<div id="html_9b04d32a3ec04b1eb8e980e23ce3519a" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, DEPARTMENT OF SANITATION, </div>')[0];
+                popup_8c9ec6cd9bc5435fa037cea86d46f08b.setContent(html_9b04d32a3ec04b1eb8e980e23ce3519a);
+            
+
+            marker_4e30286490fc4a15a111c3f020fd5f3a.bindPopup(popup_8c9ec6cd9bc5435fa037cea86d46f08b);
+
+            
+        
+    
+
+            var marker_df977562f5de4fd1a8751b50168e1d08 = L.marker(
+                [40.8059342,-73.91902569999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_0c1fb1fc8df540f0a53b66863f50ee53 = L.popup({maxWidth: '300'});
+
+            
+                var html_125ff3c426ae41f5ab641dd2b077d6cc = $('<div id="html_125ff3c426ae41f5ab641dd2b077d6cc" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_0c1fb1fc8df540f0a53b66863f50ee53.setContent(html_125ff3c426ae41f5ab641dd2b077d6cc);
+            
+
+            marker_df977562f5de4fd1a8751b50168e1d08.bindPopup(popup_0c1fb1fc8df540f0a53b66863f50ee53);
+
+            
+        
+    
+
+            var marker_5a7edc52475042d58edbe553fd65eb63 = L.marker(
+                [40.7643357,-73.8418719],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c4f6106dd29a47cdbbb6b895be82e88c = L.popup({maxWidth: '300'});
+
+            
+                var html_6fabcc7240ce43c4a3058821ca9d90b6 = $('<div id="html_6fabcc7240ce43c4a3058821ca9d90b6" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_c4f6106dd29a47cdbbb6b895be82e88c.setContent(html_6fabcc7240ce43c4a3058821ca9d90b6);
+            
+
+            marker_5a7edc52475042d58edbe553fd65eb63.bindPopup(popup_c4f6106dd29a47cdbbb6b895be82e88c);
+
+            
+        
+    
+
+            var marker_ee83e60bee3345d58c27ad696f574bdf = L.marker(
+                [40.7542459,-73.9876958],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_db130bb44bcd44d5a1b3d6130152a8ed = L.popup({maxWidth: '300'});
+
+            
+                var html_f70a8c66c7e942d5b3037900a50bdef3 = $('<div id="html_f70a8c66c7e942d5b3037900a50bdef3" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_db130bb44bcd44d5a1b3d6130152a8ed.setContent(html_f70a8c66c7e942d5b3037900a50bdef3);
+            
+
+            marker_ee83e60bee3345d58c27ad696f574bdf.bindPopup(popup_db130bb44bcd44d5a1b3d6130152a8ed);
+
+            
+        
+    
+
+            var marker_b67767e5b165407daf4beaa52c091293 = L.marker(
+                [40.704911,-74.0108723],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_d966b9ce083443948848c5dfb7439e46 = L.popup({maxWidth: '300'});
+
+            
+                var html_85353c7291d543d189361b9c16e186f9 = $('<div id="html_85353c7291d543d189361b9c16e186f9" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF SANITATION, </div>')[0];
+                popup_d966b9ce083443948848c5dfb7439e46.setContent(html_85353c7291d543d189361b9c16e186f9);
+            
+
+            marker_b67767e5b165407daf4beaa52c091293.bindPopup(popup_d966b9ce083443948848c5dfb7439e46);
+
+            
+        
+    
+
+            var marker_1e1c58c2764845298292d3b32c92cb1c = L.marker(
+                [40.9008186,-73.8675106],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_759be5327fcc4565b22c5a76008fd613 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8845b30305641e2b011e07bc216463c = $('<div id="html_c8845b30305641e2b011e07bc216463c" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_759be5327fcc4565b22c5a76008fd613.setContent(html_c8845b30305641e2b011e07bc216463c);
+            
+
+            marker_1e1c58c2764845298292d3b32c92cb1c.bindPopup(popup_759be5327fcc4565b22c5a76008fd613);
+
+            
+        
+    
+
+            var marker_e0d623075b7b451bb7fffc49cfb0c13e = L.marker(
+                [40.6855549,-73.9411715],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_21db91c344044f5b8403cf7da0549aa8 = L.popup({maxWidth: '300'});
+
+            
+                var html_8789526a323944e1b533b235b5f663cf = $('<div id="html_8789526a323944e1b533b235b5f663cf" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_21db91c344044f5b8403cf7da0549aa8.setContent(html_8789526a323944e1b533b235b5f663cf);
+            
+
+            marker_e0d623075b7b451bb7fffc49cfb0c13e.bindPopup(popup_21db91c344044f5b8403cf7da0549aa8);
+
+            
+        
+    
+
+            var marker_07166223f889432394183b4607e7d140 = L.marker(
+                [40.6908774,-73.98460990000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_7119bb7250014e209379bcd3d0535c97 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d6708f961c742c5bad429dbb1182ad4 = $('<div id="html_1d6708f961c742c5bad429dbb1182ad4" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_7119bb7250014e209379bcd3d0535c97.setContent(html_1d6708f961c742c5bad429dbb1182ad4);
+            
+
+            marker_07166223f889432394183b4607e7d140.bindPopup(popup_7119bb7250014e209379bcd3d0535c97);
+
+            
+        
+    
+
+            var marker_3946efcae2584f2990d41c9a4cb27074 = L.marker(
+                [40.6424095,-74.0760356],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_cda48ce2f41c4a1fae291464dd731469 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe2b54d1e5f944c7bf99977115dd4890 = $('<div id="html_fe2b54d1e5f944c7bf99977115dd4890" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_cda48ce2f41c4a1fae291464dd731469.setContent(html_fe2b54d1e5f944c7bf99977115dd4890);
+            
+
+            marker_3946efcae2584f2990d41c9a4cb27074.bindPopup(popup_cda48ce2f41c4a1fae291464dd731469);
+
+            
+        
+    
+
+            var marker_b9fae3db7f024b24ba9cd8a6145538c2 = L.marker(
+                [40.6413281,-74.0781566],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_f711a4e8656049a5817ec0d3342cf888 = L.popup({maxWidth: '300'});
+
+            
+                var html_e65e81079be2451599270ec9216e9be9 = $('<div id="html_e65e81079be2451599270ec9216e9be9" style="width: 100.0%; height: 100.0%;">ADMIN FOR CHILDREN&#39;S SVCS, </div>')[0];
+                popup_f711a4e8656049a5817ec0d3342cf888.setContent(html_e65e81079be2451599270ec9216e9be9);
+            
+
+            marker_b9fae3db7f024b24ba9cd8a6145538c2.bindPopup(popup_f711a4e8656049a5817ec0d3342cf888);
+
+            
+        
+    
+
+            var marker_6f225bf0ce83496cb9ad2ea020708975 = L.marker(
+                [40.6936178,-73.9908539],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_363a7dcaba5e4af4850aa8e19b0ad39a = L.popup({maxWidth: '300'});
+
+            
+                var html_c619aa2554c941db872bd05ac7ca0c6f = $('<div id="html_c619aa2554c941db872bd05ac7ca0c6f" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_363a7dcaba5e4af4850aa8e19b0ad39a.setContent(html_c619aa2554c941db872bd05ac7ca0c6f);
+            
+
+            marker_6f225bf0ce83496cb9ad2ea020708975.bindPopup(popup_363a7dcaba5e4af4850aa8e19b0ad39a);
+
+            
+        
+    
+
+            var marker_33009047fa0c4558b6c48f9c70ba3c98 = L.marker(
+                [40.756429,-73.9981248],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_73942178dde84fd1bca672779d3e1e5d = L.popup({maxWidth: '300'});
+
+            
+                var html_6dd08c31fa2c4a37a99b7c909f0d9f7f = $('<div id="html_6dd08c31fa2c4a37a99b7c909f0d9f7f" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_73942178dde84fd1bca672779d3e1e5d.setContent(html_6dd08c31fa2c4a37a99b7c909f0d9f7f);
+            
+
+            marker_33009047fa0c4558b6c48f9c70ba3c98.bindPopup(popup_73942178dde84fd1bca672779d3e1e5d);
+
+            
+        
+    
+
+            var marker_657d271150464f0087f759797b9ac6cf = L.marker(
+                [40.734384,-73.9094432],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_de86ebba07e245b1bb74e310bdb4c885 = L.popup({maxWidth: '300'});
+
+            
+                var html_734efb9a9f1b482bbede4fbe030946e2 = $('<div id="html_734efb9a9f1b482bbede4fbe030946e2" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF SANITATION, </div>')[0];
+                popup_de86ebba07e245b1bb74e310bdb4c885.setContent(html_734efb9a9f1b482bbede4fbe030946e2);
+            
+
+            marker_657d271150464f0087f759797b9ac6cf.bindPopup(popup_de86ebba07e245b1bb74e310bdb4c885);
+
+            
+        
+    
+
+            var marker_c64ce1f4bb6841fe9b718587023547de = L.marker(
+                [42.5303828,-78.4746699],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_724f3d6d6fd543ea811849b5f72d637a = L.popup({maxWidth: '300'});
+
+            
+                var html_cbf275eba1774baba3f977a89390db12 = $('<div id="html_cbf275eba1774baba3f977a89390db12" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_724f3d6d6fd543ea811849b5f72d637a.setContent(html_cbf275eba1774baba3f977a89390db12);
+            
+
+            marker_c64ce1f4bb6841fe9b718587023547de.bindPopup(popup_724f3d6d6fd543ea811849b5f72d637a);
+
+            
+        
+    
+
+            var marker_c9c1c8a78eaa45dea759e1f19b37ab0f = L.marker(
+                [40.7087856,-74.0068304],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_8e395b7143df4505a37b77d471d69221 = L.popup({maxWidth: '300'});
+
+            
+                var html_f3d7670e5a824887901fc2cbc2497cee = $('<div id="html_f3d7670e5a824887901fc2cbc2497cee" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF BUSINESS SERV., </div>')[0];
+                popup_8e395b7143df4505a37b77d471d69221.setContent(html_f3d7670e5a824887901fc2cbc2497cee);
+            
+
+            marker_c9c1c8a78eaa45dea759e1f19b37ab0f.bindPopup(popup_8e395b7143df4505a37b77d471d69221);
+
+            
+        
+    
+
+            var marker_151403921efc4972bded7dbc3a60d157 = L.marker(
+                [40.7129838,-74.007819],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_38269ca7c6204e799b3e9046d8abc00c = L.popup({maxWidth: '300'});
+
+            
+                var html_642e14bd6e194e6db52e8adaf2ba13e9 = $('<div id="html_642e14bd6e194e6db52e8adaf2ba13e9" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_38269ca7c6204e799b3e9046d8abc00c.setContent(html_642e14bd6e194e6db52e8adaf2ba13e9);
+            
+
+            marker_151403921efc4972bded7dbc3a60d157.bindPopup(popup_38269ca7c6204e799b3e9046d8abc00c);
+
+            
+        
+    
+
+            var marker_aeecf182dfe8401999376f54014f585b = L.marker(
+                [40.69174890000001,-73.9820388],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_94ece77c5796464184420754904ed719 = L.popup({maxWidth: '300'});
+
+            
+                var html_772a12f2732e47d9a7f63442c4a27dfd = $('<div id="html_772a12f2732e47d9a7f63442c4a27dfd" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_94ece77c5796464184420754904ed719.setContent(html_772a12f2732e47d9a7f63442c4a27dfd);
+            
+
+            marker_aeecf182dfe8401999376f54014f585b.bindPopup(popup_94ece77c5796464184420754904ed719);
+
+            
+        
+    
+
+            var marker_e117aba6ade741cc826d20ca4ea38b80 = L.marker(
+                [40.6404885,-74.0760463],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_36a2933ba9474599a00e87d4b264ca34 = L.popup({maxWidth: '300'});
+
+            
+                var html_cab1dc8fdd254ef18f5b2613395b3ecc = $('<div id="html_cab1dc8fdd254ef18f5b2613395b3ecc" style="width: 100.0%; height: 100.0%;">LAW DEPARTMENT, </div>')[0];
+                popup_36a2933ba9474599a00e87d4b264ca34.setContent(html_cab1dc8fdd254ef18f5b2613395b3ecc);
+            
+
+            marker_e117aba6ade741cc826d20ca4ea38b80.bindPopup(popup_36a2933ba9474599a00e87d4b264ca34);
+
+            
+        
+    
+
+            var marker_88763547b1144e0383c5aab8f170b438 = L.marker(
+                [42.0564209,-75.0115939],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_5a74b22913024889ba7573b84972f8b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_80e97fd363a74bb4914ce7ae7bbf2bcd = $('<div id="html_80e97fd363a74bb4914ce7ae7bbf2bcd" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_5a74b22913024889ba7573b84972f8b4.setContent(html_80e97fd363a74bb4914ce7ae7bbf2bcd);
+            
+
+            marker_88763547b1144e0383c5aab8f170b438.bindPopup(popup_5a74b22913024889ba7573b84972f8b4);
+
+            
+        
+    
+
+            var marker_dd535d55c1774c39b9f476d25437b0ee = L.marker(
+                [40.8258519,-73.9210056],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c4145924571f44a7abee5353a6d012b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1b9776570b8414e8242f38ba39f02a4 = $('<div id="html_e1b9776570b8414e8242f38ba39f02a4" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_c4145924571f44a7abee5353a6d012b2.setContent(html_e1b9776570b8414e8242f38ba39f02a4);
+            
+
+            marker_dd535d55c1774c39b9f476d25437b0ee.bindPopup(popup_c4145924571f44a7abee5353a6d012b2);
+
+            
+        
+    
+
+            var marker_e1d854af878447ecbc820cf693fa60d5 = L.marker(
+                [40.6360875,-74.0733238],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_7618a845522444d299c735b7dec11d7b = L.popup({maxWidth: '300'});
+
+            
+                var html_b791495694fa4ad88f9523909b5b1a0b = $('<div id="html_b791495694fa4ad88f9523909b5b1a0b" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_7618a845522444d299c735b7dec11d7b.setContent(html_b791495694fa4ad88f9523909b5b1a0b);
+            
+
+            marker_e1d854af878447ecbc820cf693fa60d5.bindPopup(popup_7618a845522444d299c735b7dec11d7b);
+
+            
+        
+    
+
+            var marker_0a63699728c949e8bb69a526d748d38d = L.marker(
+                [40.7088657,-74.0078458],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_070a0e4403b84bf182837cedce519481 = L.popup({maxWidth: '300'});
+
+            
+                var html_5abc5da7f3b2464495a200d70296b461 = $('<div id="html_5abc5da7f3b2464495a200d70296b461" style="width: 100.0%; height: 100.0%;">ADMIN TRIALS AND HEARINGS, ADMIN FOR CHILDREN&#39;S SVCS, DEPARTMENT OF FINANCE, </div>')[0];
+                popup_070a0e4403b84bf182837cedce519481.setContent(html_5abc5da7f3b2464495a200d70296b461);
+            
+
+            marker_0a63699728c949e8bb69a526d748d38d.bindPopup(popup_070a0e4403b84bf182837cedce519481);
+
+            
+        
+    
+
+            var marker_c5469d59a68d40ffb13162a825ca71bf = L.marker(
+                [40.7412595,-73.9746112],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_da7fd4e06009406897cf6727a16de1d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_7829f81f36954391af3e9c3d050c6357 = $('<div id="html_7829f81f36954391af3e9c3d050c6357" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_da7fd4e06009406897cf6727a16de1d1.setContent(html_7829f81f36954391af3e9c3d050c6357);
+            
+
+            marker_c5469d59a68d40ffb13162a825ca71bf.bindPopup(popup_da7fd4e06009406897cf6727a16de1d1);
+
+            
+        
+    
+
+            var marker_b9cf31ca795a401c8da12f12617a8a62 = L.marker(
+                [40.6936178,-73.9908539],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_1a6e301a132a41448a5bcb86fd6ef21b = L.popup({maxWidth: '300'});
+
+            
+                var html_d26a4e55ab8d48b69efe2032d7e62438 = $('<div id="html_d26a4e55ab8d48b69efe2032d7e62438" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_1a6e301a132a41448a5bcb86fd6ef21b.setContent(html_d26a4e55ab8d48b69efe2032d7e62438);
+            
+
+            marker_b9cf31ca795a401c8da12f12617a8a62.bindPopup(popup_1a6e301a132a41448a5bcb86fd6ef21b);
+
+            
+        
+    
+
+            var marker_3462d0d37aba41c78151fb4bcca4a369 = L.marker(
+                [40.7171934,-74.0008853],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_077f28ce7e634b0d870093d3ff536871 = L.popup({maxWidth: '300'});
+
+            
+                var html_3489aace59c4433d9b39c61e24bfdcf0 = $('<div id="html_3489aace59c4433d9b39c61e24bfdcf0" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF SANITATION, </div>')[0];
+                popup_077f28ce7e634b0d870093d3ff536871.setContent(html_3489aace59c4433d9b39c61e24bfdcf0);
+            
+
+            marker_3462d0d37aba41c78151fb4bcca4a369.bindPopup(popup_077f28ce7e634b0d870093d3ff536871);
+
+            
+        
+    
+
+            var marker_8682164b013d4e28b55ca0740a7289ce = L.marker(
+                [40.7071228,-74.00777149999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_9b78422fd3be492a998aac2e02f52f3f = L.popup({maxWidth: '300'});
+
+            
+                var html_d055f8e0d0eb4bb88b4a2c6c21bce01b = $('<div id="html_d055f8e0d0eb4bb88b4a2c6c21bce01b" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF INVESTIGATION, </div>')[0];
+                popup_9b78422fd3be492a998aac2e02f52f3f.setContent(html_d055f8e0d0eb4bb88b4a2c6c21bce01b);
+            
+
+            marker_8682164b013d4e28b55ca0740a7289ce.bindPopup(popup_9b78422fd3be492a998aac2e02f52f3f);
+
+            
+        
+    
+
+            var marker_f257dfbe832a463a894dbd388b7d5593 = L.marker(
+                [40.714299,-74.0058154],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_e6ea22d4b9504c95ace538864441918d = L.popup({maxWidth: '300'});
+
+            
+                var html_c26b4800944e40dabf692cc680b719cb = $('<div id="html_c26b4800944e40dabf692cc680b719cb" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF BUILDINGS, </div>')[0];
+                popup_e6ea22d4b9504c95ace538864441918d.setContent(html_c26b4800944e40dabf692cc680b719cb);
+            
+
+            marker_f257dfbe832a463a894dbd388b7d5593.bindPopup(popup_e6ea22d4b9504c95ace538864441918d);
+
+            
+        
+    
+
+            var marker_10537449661045a190818eee7e23ff75 = L.marker(
+                [40.68219,-73.96821],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_4315a6ec760b47039d2ba6ec072f572c = L.popup({maxWidth: '300'});
+
+            
+                var html_2ede4bedbce14bc8926f69cbd0d1017f = $('<div id="html_2ede4bedbce14bc8926f69cbd0d1017f" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_4315a6ec760b47039d2ba6ec072f572c.setContent(html_2ede4bedbce14bc8926f69cbd0d1017f);
+            
+
+            marker_10537449661045a190818eee7e23ff75.bindPopup(popup_4315a6ec760b47039d2ba6ec072f572c);
+
+            
+        
+    
+
+            var marker_59013bf12a0d41dd851b9cc0db522e64 = L.marker(
+                [40.710159,-73.837673],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_7bb22ff808b64e67beebdab12fdf287c = L.popup({maxWidth: '300'});
+
+            
+                var html_ea1322c00acd41b596642eae4a0bc796 = $('<div id="html_ea1322c00acd41b596642eae4a0bc796" style="width: 100.0%; height: 100.0%;">DEPT OF PARKS &amp; RECREATION, </div>')[0];
+                popup_7bb22ff808b64e67beebdab12fdf287c.setContent(html_ea1322c00acd41b596642eae4a0bc796);
+            
+
+            marker_59013bf12a0d41dd851b9cc0db522e64.bindPopup(popup_7bb22ff808b64e67beebdab12fdf287c);
+
+            
+        
+    
+
+            var marker_b45bff46f3c04c6198b81b8c4619aaf8 = L.marker(
+                [40.7132971,-74.010207],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_55ce76714fbf4987b45053b3cbac72e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_383180f1922241edb29e3a4a798c327c = $('<div id="html_383180f1922241edb29e3a4a798c327c" style="width: 100.0%; height: 100.0%;">LAW DEPARTMENT, CIVILIAN COMPLAINT REVIEW BD, ADMIN TRIALS AND HEARINGS, BUSINESS INTEGRITY COMMISSION, </div>')[0];
+                popup_55ce76714fbf4987b45053b3cbac72e9.setContent(html_383180f1922241edb29e3a4a798c327c);
+            
+
+            marker_b45bff46f3c04c6198b81b8c4619aaf8.bindPopup(popup_55ce76714fbf4987b45053b3cbac72e9);
+
+            
+        
+    
+
+            var marker_86ec7691468b4bc0a004209a4820f4f8 = L.marker(
+                [40.7658309,-73.89192539999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_4df7d03fb469466d98bffc1aad4852c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_55db97fde9d346d6982dc180c16f7eec = $('<div id="html_55db97fde9d346d6982dc180c16f7eec" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF CORRECTION, </div>')[0];
+                popup_4df7d03fb469466d98bffc1aad4852c1.setContent(html_55db97fde9d346d6982dc180c16f7eec);
+            
+
+            marker_86ec7691468b4bc0a004209a4820f4f8.bindPopup(popup_4df7d03fb469466d98bffc1aad4852c1);
+
+            
+        
+    
+
+            var marker_cc80ed9c0efc4b8f82ed06989d3d22ff = L.marker(
+                [40.704418,-74.01790199999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_22f4418786e748599eb0f0d38f4160d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_3941ed372b5b47819a2b59dc15358a2f = $('<div id="html_3941ed372b5b47819a2b59dc15358a2f" style="width: 100.0%; height: 100.0%;">FIRE DEPARTMENT, </div>')[0];
+                popup_22f4418786e748599eb0f0d38f4160d2.setContent(html_3941ed372b5b47819a2b59dc15358a2f);
+            
+
+            marker_cc80ed9c0efc4b8f82ed06989d3d22ff.bindPopup(popup_22f4418786e748599eb0f0d38f4160d2);
+
+            
+        
+    
+
+            var marker_e063ec28570640759329bf3342d9ba8c = L.marker(
+                [40.8457866,-73.89285439999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_6bbc7e7880aa4093870924c4a4318f37 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ca38829b90e4fe0b5fa5b5bca16842f = $('<div id="html_2ca38829b90e4fe0b5fa5b5bca16842f" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_6bbc7e7880aa4093870924c4a4318f37.setContent(html_2ca38829b90e4fe0b5fa5b5bca16842f);
+            
+
+            marker_e063ec28570640759329bf3342d9ba8c.bindPopup(popup_6bbc7e7880aa4093870924c4a4318f37);
+
+            
+        
+    
+
+            var marker_43b4e737a3554f5a8bdedd1b9c3ea5b9 = L.marker(
+                [40.7020737,-73.9708292],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_d4a1c44601ee4ac39b12eea219e73a17 = L.popup({maxWidth: '300'});
+
+            
+                var html_ade9ef40caa04d27a975cd64e8a1958d = $('<div id="html_ade9ef40caa04d27a975cd64e8a1958d" style="width: 100.0%; height: 100.0%;">FIRE DEPARTMENT, </div>')[0];
+                popup_d4a1c44601ee4ac39b12eea219e73a17.setContent(html_ade9ef40caa04d27a975cd64e8a1958d);
+            
+
+            marker_43b4e737a3554f5a8bdedd1b9c3ea5b9.bindPopup(popup_d4a1c44601ee4ac39b12eea219e73a17);
+
+            
+        
+    
+
+            var marker_c541ddd0e8384a9aab32331bbc504406 = L.marker(
+                [40.7316928,-73.9462305],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_dca68e6b3b1f4b69b4ece7eb1c7c8d3c = L.popup({maxWidth: '300'});
+
+            
+                var html_d9114cdd3fee41eeb6630a0759a40f46 = $('<div id="html_d9114cdd3fee41eeb6630a0759a40f46" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_dca68e6b3b1f4b69b4ece7eb1c7c8d3c.setContent(html_d9114cdd3fee41eeb6630a0759a40f46);
+            
+
+            marker_c541ddd0e8384a9aab32331bbc504406.bindPopup(popup_dca68e6b3b1f4b69b4ece7eb1c7c8d3c);
+
+            
+        
+    
+
+            var marker_53dcce5fb9f34dc29565d1688b0397d1 = L.marker(
+                [40.7138755,-74.00359739999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_ebc971a361e14ac6990c80d45136733b = L.popup({maxWidth: '300'});
+
+            
+                var html_7e07912b4f45467abecd9b3f321db3fe = $('<div id="html_7e07912b4f45467abecd9b3f321db3fe" style="width: 100.0%; height: 100.0%;">DEPT OF YOUTH &amp; COMM DEV SRVS, DEPARTMENT FOR THE AGING, CONFLICTS OF INTEREST BOARD, </div>')[0];
+                popup_ebc971a361e14ac6990c80d45136733b.setContent(html_7e07912b4f45467abecd9b3f321db3fe);
+            
+
+            marker_53dcce5fb9f34dc29565d1688b0397d1.bindPopup(popup_ebc971a361e14ac6990c80d45136733b);
+
+            
+        
+    
+
+            var marker_beeba98560814b96aa63f0f733369d6d = L.marker(
+                [40.7075142,-74.00733199999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c068c4221c73495898cdee30e794baf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a4aa67579a0490e82191219081548c4 = $('<div id="html_9a4aa67579a0490e82191219081548c4" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF INVESTIGATION, </div>')[0];
+                popup_c068c4221c73495898cdee30e794baf3.setContent(html_9a4aa67579a0490e82191219081548c4);
+            
+
+            marker_beeba98560814b96aa63f0f733369d6d.bindPopup(popup_c068c4221c73495898cdee30e794baf3);
+
+            
+        
+    
+
+            var marker_6441aa0861c745eeb6978849f65f64fb = L.marker(
+                [40.7959294,-73.9681724],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_0951d825b659402f80cf4ac707b6f749 = L.popup({maxWidth: '300'});
+
+            
+                var html_b86ef36d1cf14df18fcdc3a107521a74 = $('<div id="html_b86ef36d1cf14df18fcdc3a107521a74" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_0951d825b659402f80cf4ac707b6f749.setContent(html_b86ef36d1cf14df18fcdc3a107521a74);
+            
+
+            marker_6441aa0861c745eeb6978849f65f64fb.bindPopup(popup_0951d825b659402f80cf4ac707b6f749);
+
+            
+        
+    
+
+            var marker_408bf1db23fd4a7bb4a92a0dca88ddc4 = L.marker(
+                [40.7103318,-74.0032955],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_e1e05669561a409284a3c9023713baa1 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac429dd0419a4f39b709d39a4dff7e04 = $('<div id="html_ac429dd0419a4f39b709d39a4dff7e04" style="width: 100.0%; height: 100.0%;">HOUSING PRESERVATION &amp; DVLPMNT, DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_e1e05669561a409284a3c9023713baa1.setContent(html_ac429dd0419a4f39b709d39a4dff7e04);
+            
+
+            marker_408bf1db23fd4a7bb4a92a0dca88ddc4.bindPopup(popup_e1e05669561a409284a3c9023713baa1);
+
+            
+        
+    
+
+            var marker_dbdd5106c5b54991b1dc3516ef2c6312 = L.marker(
+                [40.7932271,-73.92128579999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_59eea6837e0f4133bd90cc6b8a7ed882 = L.popup({maxWidth: '300'});
+
+            
+                var html_57f38844c8924e56b642227e0f160bf6 = $('<div id="html_57f38844c8924e56b642227e0f160bf6" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_59eea6837e0f4133bd90cc6b8a7ed882.setContent(html_57f38844c8924e56b642227e0f160bf6);
+            
+
+            marker_dbdd5106c5b54991b1dc3516ef2c6312.bindPopup(popup_59eea6837e0f4133bd90cc6b8a7ed882);
+
+            
+        
+    
+
+            var marker_18ca1fb1560844d891eb3d67599e48ec = L.marker(
+                [40.70194619999999,-73.8037671],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_782f087755d44a7d8a8f04c582ef0ef5 = L.popup({maxWidth: '300'});
+
+            
+                var html_da2b404724d4430d98c3a86553957917 = $('<div id="html_da2b404724d4430d98c3a86553957917" style="width: 100.0%; height: 100.0%;">POLICE DEPARTMENT, </div>')[0];
+                popup_782f087755d44a7d8a8f04c582ef0ef5.setContent(html_da2b404724d4430d98c3a86553957917);
+            
+
+            marker_18ca1fb1560844d891eb3d67599e48ec.bindPopup(popup_782f087755d44a7d8a8f04c582ef0ef5);
+
+            
+        
+    
+
+            var marker_3bddb85edfd345b7ace1183a09306211 = L.marker(
+                [40.752456,-73.9984355],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_fb3c5438f66c498a9c85e08bbb81ac1c = L.popup({maxWidth: '300'});
+
+            
+                var html_7a99dd635adb4b00b883c85d2bc2631d = $('<div id="html_7a99dd635adb4b00b883c85d2bc2631d" style="width: 100.0%; height: 100.0%;">FINANCIAL INFO SVCS AGENCY, OFF OF PAYROLL ADMINISTRATION, </div>')[0];
+                popup_fb3c5438f66c498a9c85e08bbb81ac1c.setContent(html_7a99dd635adb4b00b883c85d2bc2631d);
+            
+
+            marker_3bddb85edfd345b7ace1183a09306211.bindPopup(popup_fb3c5438f66c498a9c85e08bbb81ac1c);
+
+            
+        
+    
+
+            var marker_630d4922ac774dd98bde8be3102ae040 = L.marker(
+                [40.8630768,-73.8972464],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_9f558a96f7484f01a06e4358a8c2a174 = L.popup({maxWidth: '300'});
+
+            
+                var html_6fb9d9dc284b48e2a8497bcb0f13e063 = $('<div id="html_6fb9d9dc284b48e2a8497bcb0f13e063" style="width: 100.0%; height: 100.0%;">ADMIN FOR CHILDREN&#39;S SVCS, </div>')[0];
+                popup_9f558a96f7484f01a06e4358a8c2a174.setContent(html_6fb9d9dc284b48e2a8497bcb0f13e063);
+            
+
+            marker_630d4922ac774dd98bde8be3102ae040.bindPopup(popup_9f558a96f7484f01a06e4358a8c2a174);
+
+            
+        
+    
+
+            var marker_215c82f53025415bad5e3d427afb33f8 = L.marker(
+                [40.705974,-74.01261459999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_33a1f03a42804378a520876d6a3b7805 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f0d4439171f432c963ff068511918cb = $('<div id="html_0f0d4439171f432c963ff068511918cb" style="width: 100.0%; height: 100.0%;">CONSUMER AFFAIRS, DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_33a1f03a42804378a520876d6a3b7805.setContent(html_0f0d4439171f432c963ff068511918cb);
+            
+
+            marker_215c82f53025415bad5e3d427afb33f8.bindPopup(popup_33a1f03a42804378a520876d6a3b7805);
+
+            
+        
+    
+
+            var marker_199885d988924b9e84064327584eb7f5 = L.marker(
+                [40.7696172,-73.83315329999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_7c48d51d88cc4b1a910e64348eea1daa = L.popup({maxWidth: '300'});
+
+            
+                var html_e9f1c24c5ffc49858fd953dae85e7ecd = $('<div id="html_e9f1c24c5ffc49858fd953dae85e7ecd" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_7c48d51d88cc4b1a910e64348eea1daa.setContent(html_e9f1c24c5ffc49858fd953dae85e7ecd);
+            
+
+            marker_199885d988924b9e84064327584eb7f5.bindPopup(popup_7c48d51d88cc4b1a910e64348eea1daa);
+
+            
+        
+    
+
+            var marker_72e9b00ab35c4908851384de69fee58b = L.marker(
+                [41.9444448,-74.2035709],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_2ca2efae93eb4e538ff25d7d92bfd063 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f79cd2a75c34882ab47c5c2e77da41a = $('<div id="html_6f79cd2a75c34882ab47c5c2e77da41a" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_2ca2efae93eb4e538ff25d7d92bfd063.setContent(html_6f79cd2a75c34882ab47c5c2e77da41a);
+            
+
+            marker_72e9b00ab35c4908851384de69fee58b.bindPopup(popup_2ca2efae93eb4e538ff25d7d92bfd063);
+
+            
+        
+    
+
+            var marker_e523c3ee8769403bab18fbd8dac395d6 = L.marker(
+                [40.7170757,-74.00601879999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_ff294a9cb67740baabd5fecfe7fc22ac = L.popup({maxWidth: '300'});
+
+            
+                var html_e033399c97764bbbae467b41ab93c7fe = $('<div id="html_e033399c97764bbbae467b41ab93c7fe" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_ff294a9cb67740baabd5fecfe7fc22ac.setContent(html_e033399c97764bbbae467b41ab93c7fe);
+            
+
+            marker_e523c3ee8769403bab18fbd8dac395d6.bindPopup(popup_ff294a9cb67740baabd5fecfe7fc22ac);
+
+            
+        
+    
+
+            var marker_0382118cc3be4661a2ed5f2a449d0e72 = L.marker(
+                [40.7179253,-74.0059122],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_3122b791dd514c1e852c625c3f17f919 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6c3ce58394f451d9c68979b29a24f4e = $('<div id="html_e6c3ce58394f451d9c68979b29a24f4e" style="width: 100.0%; height: 100.0%;">HRA/DEPT OF SOCIAL SERVICES, </div>')[0];
+                popup_3122b791dd514c1e852c625c3f17f919.setContent(html_e6c3ce58394f451d9c68979b29a24f4e);
+            
+
+            marker_0382118cc3be4661a2ed5f2a449d0e72.bindPopup(popup_3122b791dd514c1e852c625c3f17f919);
+
+            
+        
+    
+
+            var marker_796a754e6fb043c5ad091be23f98bc5f = L.marker(
+                [40.7475558,-73.9508221],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_bc639567429f48569e9dd5ad48657398 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5265ccb8042464f91295cf82e25ffcd = $('<div id="html_e5265ccb8042464f91295cf82e25ffcd" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_bc639567429f48569e9dd5ad48657398.setContent(html_e5265ccb8042464f91295cf82e25ffcd);
+            
+
+            marker_796a754e6fb043c5ad091be23f98bc5f.bindPopup(popup_bc639567429f48569e9dd5ad48657398);
+
+            
+        
+    
+
+            var marker_ab8ed8b626694b06b25ca1317138c471 = L.marker(
+                [40.603871,-73.9559],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_ced149c24fb94ad0adaa7eeec8b967a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5080fd42bced4264b9fedfcd53678170 = $('<div id="html_5080fd42bced4264b9fedfcd53678170" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_ced149c24fb94ad0adaa7eeec8b967a6.setContent(html_5080fd42bced4264b9fedfcd53678170);
+            
+
+            marker_ab8ed8b626694b06b25ca1317138c471.bindPopup(popup_ced149c24fb94ad0adaa7eeec8b967a6);
+
+            
+        
+    
+
+            var marker_b0aaa6bff03e405e9294edaa6cefbfd0 = L.marker(
+                [40.7127744,-74.006059],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_cb993bac1d974983ac10ef5c68a56b7c = L.popup({maxWidth: '300'});
+
+            
+                var html_b6d5152708ba4884ac7d3a00323fea9f = $('<div id="html_b6d5152708ba4884ac7d3a00323fea9f" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_cb993bac1d974983ac10ef5c68a56b7c.setContent(html_b6d5152708ba4884ac7d3a00323fea9f);
+            
+
+            marker_b0aaa6bff03e405e9294edaa6cefbfd0.bindPopup(popup_cb993bac1d974983ac10ef5c68a56b7c);
+
+            
+        
+    
+
+            var marker_573ca42983db4e65952735d9e40ad877 = L.marker(
+                [40.749352,-73.939059],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_c144496458f34dfdb7347e1dab470391 = L.popup({maxWidth: '300'});
+
+            
+                var html_20d8bf852c2f45fba9d09f3738bd84a6 = $('<div id="html_20d8bf852c2f45fba9d09f3738bd84a6" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_c144496458f34dfdb7347e1dab470391.setContent(html_20d8bf852c2f45fba9d09f3738bd84a6);
+            
+
+            marker_573ca42983db4e65952735d9e40ad877.bindPopup(popup_c144496458f34dfdb7347e1dab470391);
+
+            
+        
+    
+
+            var marker_2ac0ac3ae84144ab87a6d4799abc4348 = L.marker(
+                [40.6940427,-73.9839544],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_9a9f3f3d5ff54182948eb5331316f68c = L.popup({maxWidth: '300'});
+
+            
+                var html_be1dd8d8ae7c479c9a64307c3f34cde2 = $('<div id="html_be1dd8d8ae7c479c9a64307c3f34cde2" style="width: 100.0%; height: 100.0%;">HRA/DEPT OF SOCIAL SERVICES, </div>')[0];
+                popup_9a9f3f3d5ff54182948eb5331316f68c.setContent(html_be1dd8d8ae7c479c9a64307c3f34cde2);
+            
+
+            marker_2ac0ac3ae84144ab87a6d4799abc4348.bindPopup(popup_9a9f3f3d5ff54182948eb5331316f68c);
+
+            
+        
+    
+
+            var marker_3955da454b554ec98de3010d5307eda1 = L.marker(
+                [40.8865832,-73.8793824],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_db6a8d197cf3482dbe827990c4d3d473 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ae75dfd23a6472882241c1f0a8ca244 = $('<div id="html_8ae75dfd23a6472882241c1f0a8ca244" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_db6a8d197cf3482dbe827990c4d3d473.setContent(html_8ae75dfd23a6472882241c1f0a8ca244);
+            
+
+            marker_3955da454b554ec98de3010d5307eda1.bindPopup(popup_db6a8d197cf3482dbe827990c4d3d473);
+
+            
+        
+    
+
+            var marker_726b26533eee4243b8c0e932dd927602 = L.marker(
+                [40.6941582,-73.7875299],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_9880e7598912442a82ac0c0b366fbad6 = L.popup({maxWidth: '300'});
+
+            
+                var html_0543729953d74f15aac3590822478873 = $('<div id="html_0543729953d74f15aac3590822478873" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_9880e7598912442a82ac0c0b366fbad6.setContent(html_0543729953d74f15aac3590822478873);
+            
+
+            marker_726b26533eee4243b8c0e932dd927602.bindPopup(popup_9880e7598912442a82ac0c0b366fbad6);
+
+            
+        
+    
+
+            var marker_f993692612cc449d82af63a1674dbb6f = L.marker(
+                [40.7128238,-74.00370869999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_a0526328d8fb4eca8309b2349c149d18 = L.popup({maxWidth: '300'});
+
+            
+                var html_4eb050fe93954587a2154c93c7a8aa93 = $('<div id="html_4eb050fe93954587a2154c93c7a8aa93" style="width: 100.0%; height: 100.0%;">BOARD OF CORRECTION, </div>')[0];
+                popup_a0526328d8fb4eca8309b2349c149d18.setContent(html_4eb050fe93954587a2154c93c7a8aa93);
+            
+
+            marker_f993692612cc449d82af63a1674dbb6f.bindPopup(popup_a0526328d8fb4eca8309b2349c149d18);
+
+            
+        
+    
+
+            var marker_381c1dabf8ea42039a7b40b28d34ae76 = L.marker(
+                [40.7356199,-73.9880074],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_3520ce937cf44c49a2adf7def7e157fc = L.popup({maxWidth: '300'});
+
+            
+                var html_8d5a344b155149e798608dd0521aa701 = $('<div id="html_8d5a344b155149e798608dd0521aa701" style="width: 100.0%; height: 100.0%;">HRA/DEPT OF SOCIAL SERVICES, </div>')[0];
+                popup_3520ce937cf44c49a2adf7def7e157fc.setContent(html_8d5a344b155149e798608dd0521aa701);
+            
+
+            marker_381c1dabf8ea42039a7b40b28d34ae76.bindPopup(popup_3520ce937cf44c49a2adf7def7e157fc);
+
+            
+        
+    
+
+            var marker_66a1cc18f23a4f1687392deaf99385fa = L.marker(
+                [40.6781784,-73.9441579],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_08786755763a47a4822dbd7ed09ff712 = L.popup({maxWidth: '300'});
+
+            
+                var html_775c7d2fa4e644348bc5ba63d334c891 = $('<div id="html_775c7d2fa4e644348bc5ba63d334c891" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_08786755763a47a4822dbd7ed09ff712.setContent(html_775c7d2fa4e644348bc5ba63d334c891);
+            
+
+            marker_66a1cc18f23a4f1687392deaf99385fa.bindPopup(popup_08786755763a47a4822dbd7ed09ff712);
+
+            
+        
+    
+
+            var marker_be8d95e8dff5410c85400bc63315110f = L.marker(
+                [40.7087569,-74.00789759999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_2c22acb2299448eca67c9e4018b09e40 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d358d22fbdd4ae1aa16e008b0efa378 = $('<div id="html_9d358d22fbdd4ae1aa16e008b0efa378" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_2c22acb2299448eca67c9e4018b09e40.setContent(html_9d358d22fbdd4ae1aa16e008b0efa378);
+            
+
+            marker_be8d95e8dff5410c85400bc63315110f.bindPopup(popup_2c22acb2299448eca67c9e4018b09e40);
+
+            
+        
+    
+
+            var marker_234f486104a54384bf9831e9eeeeffd9 = L.marker(
+                [40.832732,-73.9033157],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_48f11724a2014221be40c85cb840555e = L.popup({maxWidth: '300'});
+
+            
+                var html_6d743a97d58d4fa7b84f5d247ff1873c = $('<div id="html_6d743a97d58d4fa7b84f5d247ff1873c" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_48f11724a2014221be40c85cb840555e.setContent(html_6d743a97d58d4fa7b84f5d247ff1873c);
+            
+
+            marker_234f486104a54384bf9831e9eeeeffd9.bindPopup(popup_48f11724a2014221be40c85cb840555e);
+
+            
+        
+    
+
+            var marker_049f91e191584c5aacfe409176e42d84 = L.marker(
+                [40.7127753,-74.0059728],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_60c59309e3054794bbb172b1a608d39f = L.popup({maxWidth: '300'});
+
+            
+                var html_5b29e1b2214e424c88c46fd586e69851 = $('<div id="html_5b29e1b2214e424c88c46fd586e69851" style="width: 100.0%; height: 100.0%;">NYC HOUSING AUTHORITY, </div>')[0];
+                popup_60c59309e3054794bbb172b1a608d39f.setContent(html_5b29e1b2214e424c88c46fd586e69851);
+            
+
+            marker_049f91e191584c5aacfe409176e42d84.bindPopup(popup_60c59309e3054794bbb172b1a608d39f);
+
+            
+        
+    
+
+            var marker_c5cd60ff9d274ed28773187541c9ab8d = L.marker(
+                [40.7084692,-74.01059479999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_b0c45785160d4c43be7f06057606e2ea = L.popup({maxWidth: '300'});
+
+            
+                var html_42777818316b4bff840da27431612a04 = $('<div id="html_42777818316b4bff840da27431612a04" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF CITY PLANNING, </div>')[0];
+                popup_b0c45785160d4c43be7f06057606e2ea.setContent(html_42777818316b4bff840da27431612a04);
+            
+
+            marker_c5cd60ff9d274ed28773187541c9ab8d.bindPopup(popup_b0c45785160d4c43be7f06057606e2ea);
+
+            
+        
+    
+
+            var marker_41ca82b11f43416e88c31f545f1461d5 = L.marker(
+                [40.7120557,-74.00237729999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_539cc17e78bb47549106ce2a77487ffe = L.popup({maxWidth: '300'});
+
+            
+                var html_64c34e80ea5a44ce9b87aef9be93c0c3 = $('<div id="html_64c34e80ea5a44ce9b87aef9be93c0c3" style="width: 100.0%; height: 100.0%;">POLICE DEPARTMENT, </div>')[0];
+                popup_539cc17e78bb47549106ce2a77487ffe.setContent(html_64c34e80ea5a44ce9b87aef9be93c0c3);
+            
+
+            marker_41ca82b11f43416e88c31f545f1461d5.bindPopup(popup_539cc17e78bb47549106ce2a77487ffe);
+
+            
+        
+    
+
+            var marker_5dce564bd0d14febbfceaa7ca0d784d4 = L.marker(
+                [40.7992515,-73.9230296],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_94a19a9a3d5946bebe180a17927ddb30 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b2ef9c045a04c0a9996b96508d5c570 = $('<div id="html_6b2ef9c045a04c0a9996b96508d5c570" style="width: 100.0%; height: 100.0%;">DEPT OF PARKS &amp; RECREATION, </div>')[0];
+                popup_94a19a9a3d5946bebe180a17927ddb30.setContent(html_6b2ef9c045a04c0a9996b96508d5c570);
+            
+
+            marker_5dce564bd0d14febbfceaa7ca0d784d4.bindPopup(popup_94a19a9a3d5946bebe180a17927ddb30);
+
+            
+        
+    
+
+            var marker_b82afff6378b4cdcb725a707a4e10540 = L.marker(
+                [40.813199,-73.927168],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_f5313f7436c941f1973df3e30bdca5c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_295eafbaef11400ead62082eb6817481 = $('<div id="html_295eafbaef11400ead62082eb6817481" style="width: 100.0%; height: 100.0%;">HRA/DEPT OF SOCIAL SERVICES, </div>')[0];
+                popup_f5313f7436c941f1973df3e30bdca5c1.setContent(html_295eafbaef11400ead62082eb6817481);
+            
+
+            marker_b82afff6378b4cdcb725a707a4e10540.bindPopup(popup_f5313f7436c941f1973df3e30bdca5c1);
+
+            
+        
+    
+
+            var marker_da31afc105d64a7f8c922dbac5b4f54c = L.marker(
+                [40.7502888,-73.9380487],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_86fc1fa4043f42b18930fddbcd7e7a16 = L.popup({maxWidth: '300'});
+
+            
+                var html_882271fa51b3419cad4c5bdcab5db273 = $('<div id="html_882271fa51b3419cad4c5bdcab5db273" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, POLICE DEPARTMENT, </div>')[0];
+                popup_86fc1fa4043f42b18930fddbcd7e7a16.setContent(html_882271fa51b3419cad4c5bdcab5db273);
+            
+
+            marker_da31afc105d64a7f8c922dbac5b4f54c.bindPopup(popup_86fc1fa4043f42b18930fddbcd7e7a16);
+
+            
+        
+    
+
+            var marker_a6f5edfb20134910af6817e3d846994b = L.marker(
+                [40.7524362,-73.7413486],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_8a0d601a3ca041aea64576f3ca5a495c = L.popup({maxWidth: '300'});
+
+            
+                var html_62c2a6e43c8240859b85bfadfd59ac50 = $('<div id="html_62c2a6e43c8240859b85bfadfd59ac50" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_8a0d601a3ca041aea64576f3ca5a495c.setContent(html_62c2a6e43c8240859b85bfadfd59ac50);
+            
+
+            marker_a6f5edfb20134910af6817e3d846994b.bindPopup(popup_8a0d601a3ca041aea64576f3ca5a495c);
+
+            
+        
+    
+
+            var marker_cfac41c208b84c3eabe57a2a4bfb6bdb = L.marker(
+                [40.7441164,-73.9304697],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_490bf52309594860a89bba022db03f35 = L.popup({maxWidth: '300'});
+
+            
+                var html_34ae930ea1334625a2b1d50ef3b5cb08 = $('<div id="html_34ae930ea1334625a2b1d50ef3b5cb08" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, </div>')[0];
+                popup_490bf52309594860a89bba022db03f35.setContent(html_34ae930ea1334625a2b1d50ef3b5cb08);
+            
+
+            marker_cfac41c208b84c3eabe57a2a4bfb6bdb.bindPopup(popup_490bf52309594860a89bba022db03f35);
+
+            
+        
+    
+
+            var marker_c14419539c814edcb5bd8410e2078c2d = L.marker(
+                [40.7134024,-74.007519],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_f44a881e34cf4288afb75e5c97240ca9 = L.popup({maxWidth: '300'});
+
+            
+                var html_c89a38c3a9f64eb98ebbc6d9b2f60493 = $('<div id="html_c89a38c3a9f64eb98ebbc6d9b2f60493" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, MAYORS OFFICE OF CONTRACT SVCS, DEPT OF HEALTH/MENTAL HYGIENE, EQUAL EMPLOY PRACTICES COMM, DEPT OF INFO TECH &amp; TELECOMM, </div>')[0];
+                popup_f44a881e34cf4288afb75e5c97240ca9.setContent(html_c89a38c3a9f64eb98ebbc6d9b2f60493);
+            
+
+            marker_c14419539c814edcb5bd8410e2078c2d.bindPopup(popup_f44a881e34cf4288afb75e5c97240ca9);
+
+            
+        
+    
+
+            var marker_9d00497014b142b1bfed9dc3eecf9733 = L.marker(
+                [40.710219,-74.00619],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_5cd440c936cd44a287bf915c5996abf3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3b770013a454c09b9a0d71abcfd1dc5 = $('<div id="html_d3b770013a454c09b9a0d71abcfd1dc5" style="width: 100.0%; height: 100.0%;">DEPT OF YOUTH &amp; COMM DEV SRVS, </div>')[0];
+                popup_5cd440c936cd44a287bf915c5996abf3.setContent(html_d3b770013a454c09b9a0d71abcfd1dc5);
+            
+
+            marker_9d00497014b142b1bfed9dc3eecf9733.bindPopup(popup_5cd440c936cd44a287bf915c5996abf3);
+
+            
+        
+    
+
+            var marker_8d9345c2f8094d8eba332012227f1466 = L.marker(
+                [40.7033226,-74.0088962],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_6d58179d9dc44c28a4620e06c6e10ed4 = L.popup({maxWidth: '300'});
+
+            
+                var html_2bf775bf6c5741b4aa4d925d2a6ac6f9 = $('<div id="html_2bf775bf6c5741b4aa4d925d2a6ac6f9" style="width: 100.0%; height: 100.0%;">DEPARTMENT OF TRANSPORTATION, TEACHERS RETIREMENT SYSTEM, </div>')[0];
+                popup_6d58179d9dc44c28a4620e06c6e10ed4.setContent(html_2bf775bf6c5741b4aa4d925d2a6ac6f9);
+            
+
+            marker_8d9345c2f8094d8eba332012227f1466.bindPopup(popup_6d58179d9dc44c28a4620e06c6e10ed4);
+
+            
+        
+    
+
+            var marker_6c766d088cea4465b0a88161901927e6 = L.marker(
+                [40.7096338,-74.0057286],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_29089697adc640d4bb62872c0d506363 = L.popup({maxWidth: '300'});
+
+            
+                var html_3862befec1f0479db8434ab3ce84ecd8 = $('<div id="html_3862befec1f0479db8434ab3ce84ecd8" style="width: 100.0%; height: 100.0%;">ADMIN FOR CHILDREN&#39;S SVCS, </div>')[0];
+                popup_29089697adc640d4bb62872c0d506363.setContent(html_3862befec1f0479db8434ab3ce84ecd8);
+            
+
+            marker_6c766d088cea4465b0a88161901927e6.bindPopup(popup_29089697adc640d4bb62872c0d506363);
+
+            
+        
+    
+
+            var marker_e111b056892e4e80a705a94c445a091b = L.marker(
+                [40.6428301,-74.0770605],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_019b0b9c5c80438c9cc8d0a83243ea26 = L.popup({maxWidth: '300'});
+
+            
+                var html_d669451c17344c5cb2830eb2a21bae63 = $('<div id="html_d669451c17344c5cb2830eb2a21bae63" style="width: 100.0%; height: 100.0%;">DISTRICT ATTORNEY RICHMOND COU, </div>')[0];
+                popup_019b0b9c5c80438c9cc8d0a83243ea26.setContent(html_d669451c17344c5cb2830eb2a21bae63);
+            
+
+            marker_e111b056892e4e80a705a94c445a091b.bindPopup(popup_019b0b9c5c80438c9cc8d0a83243ea26);
+
+            
+        
+    
+
+            var marker_7c4c6bde532a4aa98a609d4e39cfe822 = L.marker(
+                [40.7104702,-74.0105359],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_3a71410e97ca43aca7371c6a681c4929 = L.popup({maxWidth: '300'});
+
+            
+                var html_d60f4c56f8ba4432a4707e207d506ef3 = $('<div id="html_d60f4c56f8ba4432a4707e207d506ef3" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_3a71410e97ca43aca7371c6a681c4929.setContent(html_d60f4c56f8ba4432a4707e207d506ef3);
+            
+
+            marker_7c4c6bde532a4aa98a609d4e39cfe822.bindPopup(popup_3a71410e97ca43aca7371c6a681c4929);
+
+            
+        
+    
+
+            var marker_94291947a68a419390eb8d43f52d4f67 = L.marker(
+                [40.6979686,-73.96055009999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_87160c131a7b4e3c83eb75cfd447c964 = L.popup({maxWidth: '300'});
+
+            
+                var html_11731f1e5ec34a8fb63262adc878c71a = $('<div id="html_11731f1e5ec34a8fb63262adc878c71a" style="width: 100.0%; height: 100.0%;">DEPT OF ENVIRONMENT PROTECTION, </div>')[0];
+                popup_87160c131a7b4e3c83eb75cfd447c964.setContent(html_11731f1e5ec34a8fb63262adc878c71a);
+            
+
+            marker_94291947a68a419390eb8d43f52d4f67.bindPopup(popup_87160c131a7b4e3c83eb75cfd447c964);
+
+            
+        
+    
+
+            var marker_38f7e10522004730b169c6a13df1793a = L.marker(
+                [40.756359,-73.988873],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_44419b9f75b74495a3b45cdf2ac1c39d = L.popup({maxWidth: '300'});
+
+            
+                var html_6659b9e58b52441085d75c21713de204 = $('<div id="html_6659b9e58b52441085d75c21713de204" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_44419b9f75b74495a3b45cdf2ac1c39d.setContent(html_6659b9e58b52441085d75c21713de204);
+            
+
+            marker_38f7e10522004730b169c6a13df1793a.bindPopup(popup_44419b9f75b74495a3b45cdf2ac1c39d);
+
+            
+        
+    
+
+            var marker_c4e83eb98db248778254ef9f4bb11866 = L.marker(
+                [40.6646618,-73.91113539999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_951a82d762d3400d887dbbc8b1ebc9d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a36b639b0634975872c28dcc05d1371 = $('<div id="html_7a36b639b0634975872c28dcc05d1371" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_951a82d762d3400d887dbbc8b1ebc9d9.setContent(html_7a36b639b0634975872c28dcc05d1371);
+            
+
+            marker_c4e83eb98db248778254ef9f4bb11866.bindPopup(popup_951a82d762d3400d887dbbc8b1ebc9d9);
+
+            
+        
+    
+
+            var marker_d14e63d6997d43e39520d161e907a0b8 = L.marker(
+                [40.7131072,-73.9877319],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_4125446287404c839d66e3712359ff28 = L.popup({maxWidth: '300'});
+
+            
+                var html_db0ce9b534974ab7b7f6e459fc6150ae = $('<div id="html_db0ce9b534974ab7b7f6e459fc6150ae" style="width: 100.0%; height: 100.0%;">DEPT OF HEALTH/MENTAL HYGIENE, </div>')[0];
+                popup_4125446287404c839d66e3712359ff28.setContent(html_db0ce9b534974ab7b7f6e459fc6150ae);
+            
+
+            marker_d14e63d6997d43e39520d161e907a0b8.bindPopup(popup_4125446287404c839d66e3712359ff28);
+
+            
+        
+    
+
+            var marker_1b76b6ddffe54cd3a63ef6dc9dc97c0a = L.marker(
+                [40.6934634,-73.9882453],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_945542cf564341f9a17c325f01ec96c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_9883a3617fa444acba25433b7fe2d0fe = $('<div id="html_9883a3617fa444acba25433b7fe2d0fe" style="width: 100.0%; height: 100.0%;">NYC EMPLOYEES RETIREMENT SYS, </div>')[0];
+                popup_945542cf564341f9a17c325f01ec96c4.setContent(html_9883a3617fa444acba25433b7fe2d0fe);
+            
+
+            marker_1b76b6ddffe54cd3a63ef6dc9dc97c0a.bindPopup(popup_945542cf564341f9a17c325f01ec96c4);
+
+            
+        
+    
+
+            var marker_aa3668434ab34977a98628e8666f29e5 = L.marker(
+                [40.7094687,-74.0072895],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_d09aec83646446fdba027c613943c60d);
+            
+    
+            var popup_dd1988d78a8647d0ae55195a9de53d51 = L.popup({maxWidth: '300'});
+
+            
+                var html_6977b5e890ce4dadab01fe8c2bc44622 = $('<div id="html_6977b5e890ce4dadab01fe8c2bc44622" style="width: 100.0%; height: 100.0%;">DEPT OF YOUTH &amp; COMM DEV SRVS, </div>')[0];
+                popup_dd1988d78a8647d0ae55195a9de53d51.setContent(html_6977b5e890ce4dadab01fe8c2bc44622);
+            
+
+            marker_aa3668434ab34977a98628e8666f29e5.bindPopup(popup_dd1988d78a8647d0ae55195a9de53d51);
+
+            
+        
+</script>
