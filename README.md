@@ -8,6 +8,8 @@ This app aggregates civil service job vacancies from the City of New York. All d
 5. Dash
 6. Googlemap API
 
+![alt text](https://raw.githubusercontent.com/Adomkay/job_links/master/job_app.png)
+
 ## WORKFLOW
 1. I retrieved the data from the API, cleaned it and stored it as a CSV
 2. Using SqlAlchemy I was able to seed all the information into my SQL database at the point of instantiation of my class objects.
