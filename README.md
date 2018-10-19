@@ -8,7 +8,7 @@ This app aggregates civil service job vacancies from the City of New York. All d
 5. Dash
 6. Googlemap API
 
-![alt text](https://raw.githubusercontent.com/Adomkay/job_links/master/job_app.png)
+![alt text](https://github.com/Adomkay/job-links/blob/master/job_app.png)
 
 ## WORKFLOW
 1. I retrieved the data from the API, cleaned it and stored it as a CSV
